@@ -1,12 +1,18 @@
 import Link from 'next/link'
+import classnames from '~/classnames'
 import styles from './index.module.css'
 
 type Props = {
+	className?: string
 	children: React.ReactNode
 }
 
 export function Breadcrumb(props: Props) {
-	return <nav className={styles.breadcrumb}>{props.children}</nav>
+	return (
+		<nav className={classnames([styles.breadcrumb, props.className])}>
+			{props.children}
+		</nav>
+	)
 }
 
 type CrumbProps = {

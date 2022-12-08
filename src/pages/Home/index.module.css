@@ -12,6 +12,7 @@
 .header {
 	display: flex;
 	justify-content: space-between;
+	align-items: baseline;
 }
 
 .title {
@@ -22,4 +23,8 @@
 .side {
 	flex: 0 0 248px;
 	padding: 14px 0px;
+}
+
+.breadcrumb {
+	align-items: baseline;
 }

@@ -38,7 +38,7 @@ export default function Home() {
 					</div>
 
 					<div className={styles.side}>
-						<Breadcrumb>
+						<Breadcrumb className={styles.breadcrumb}>
 							<Crumb href='/'>Home</Crumb>
 							<Crumb href='/sale'>Sale</Crumb>
 							<Crumb href='/sale/shoes'>Shoes</Crumb>

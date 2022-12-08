@@ -27,7 +27,9 @@ export default function MainLayout(props: Props) {
 				</div>
 
 				<div className={styles.mainHeader}>
-					<Logo />
+					<div className={styles.sideMargin}>
+						<Logo />
+					</div>
 					<nav className={styles.nav}>
 						<HeaderLink href='/sale'>Sale</HeaderLink>
 						<HeaderLink href='/new'>New Releases</HeaderLink>
@@ -36,6 +38,8 @@ export default function MainLayout(props: Props) {
 						<HeaderLink href='/kids'>Kids</HeaderLink>
 						<HeaderLink href='/collections'>Collections</HeaderLink>
 					</nav>
+
+					<div className={styles.sideMargin} />
 				</div>
 			</header>
 			<main className={styles.main}>{props.children}</main>
