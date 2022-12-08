@@ -1,0 +1,26 @@
+.label {
+	position: relative;
+}
+
+.input {
+	border: none;
+	background: transparent;
+	border-bottom: 1px solid var(--color-gray-300);
+	padding-left: 24px;
+	font-size: calc(14rem / 16);
+	color: var(--color-gray-100);
+	outline-offset: 4px;
+}
+.input::placeholder {
+	color: var(--color-gray-500);
+}
+
+.searchIconWrapper > svg {
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	margin: auto;
+	width: 16px;
+	height: 16px;
+}

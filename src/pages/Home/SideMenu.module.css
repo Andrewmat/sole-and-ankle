@@ -1,0 +1,14 @@
+.sideLink {
+	display: block;
+	text-decoration: none;
+	font-weight: var(--weight-medium);
+	color: var(--color-gray-900);
+	line-height: 2;
+}
+.sideLink:hover {
+	color: var(--color-secondary);
+}
+
+.sideLink.active {
+	color: var(--color-primary);
+}

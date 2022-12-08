@@ -1,0 +1,25 @@
+.mainWrapper {
+	display: flex;
+	flex-direction: row-reverse;
+	padding: 0 32px;
+	gap: 32px;
+	justify-content: space-evenly;
+}
+
+.content {
+	flex: 1;
+}
+.header {
+	display: flex;
+	justify-content: space-between;
+}
+
+.title {
+	font-size: 1.5rem;
+	font-weight: var(--weight-medium);
+}
+
+.side {
+	flex: 0 0 248px;
+	padding: 14px 0px;
+}
